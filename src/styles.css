@@ -1,0 +1,19 @@
+@import 'material-symbols/outlined.css';
+:root {
+  --primary: #1f6fd1; --primary-ink: #0b2f66; --primary-soft: #dceafe; --primary-faint: #eef4fb;
+  --teal-soft: #d5f0ee; --teal-ink: #083b37;
+  --err: #b3261e; --err-soft: #fbe3e1; --err-ink: #410e0b; --err-line: #e8a29d;
+  --warn-soft: #fff1d6; --warn-ink: #4a3200;
+  --ink: #1a1f26; --ink2: #4a5562; --ink3: #9aa5b1; --line: #d3dce6; --bg: #f8fbff;
+  --mono: 'SF Mono', 'Roboto Mono', Menlo, ui-monospace, monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 1440px; height: 810px; overflow: hidden; background: #0b1220; }
+body { font-family: 'PingFang SC', -apple-system, 'Helvetica Neue', 'Microsoft YaHei', sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+button { font: inherit; color: inherit; border: 0; background: none; padding: 0; cursor: default; }
+.ms { font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-transform: none; display: inline-block; white-space: nowrap; direction: ltr; -webkit-font-smoothing: antialiased; font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; user-select: none; }
+.ms.fill { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.mono { font-family: var(--mono); }
+.scroll { overflow-y: auto; scrollbar-width: none; }
+.scroll::-webkit-scrollbar { display: none; }
+.num { font-variant-numeric: tabular-nums; }

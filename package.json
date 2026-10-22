@@ -1,0 +1,21 @@
+{
+  "name": "tms-ai-dispatch-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "record": "node record.mjs"
+  },
+  "dependencies": {
+    "material-symbols": "^0.48.0",
+    "motion": "^14.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "playwright-core": "^1.64.1",
+    "vite": "^8.3.4"
+  }
+}
